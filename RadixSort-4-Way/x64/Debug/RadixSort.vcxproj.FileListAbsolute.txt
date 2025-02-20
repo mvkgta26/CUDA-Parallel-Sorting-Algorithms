@@ -1,0 +1,2 @@
+D:\CUDA Projects\Sorts\RadixSort\x64\Debug\RadixSort.exe
+D:\CUDA Projects\Sorts\RadixSort-2Way\x64\Debug\RadixSort.exe

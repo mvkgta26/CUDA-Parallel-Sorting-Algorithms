@@ -1,0 +1,17 @@
+﻿  Compiling CUDA source file kernel.cu...
+  
+  D:\CUDA Projects\Sorts\RadixSort-2Way>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.4\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX86\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.4\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.4\include"  -G   --keep-dir x64\Debug  -maxrregcount=0  --machine 64 --compile -cudart static  -g  -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc142.pdb /FS /Zi /RTC1 /MDd " -o x64\Debug\kernel.cu.obj "D:\CUDA Projects\Sorts\RadixSort-2Way\kernel.cu" 
+  device_functions.h is an internal header file and must not be used directly.  This file will be removed in a future CUDA release.  Please use cuda_runtime_api.h or cuda_runtime.h instead.
+d:\cuda projects\sorts\radixsort-2way\kernel.cu(150): warning : expression has no effect
+  
+d:\cuda projects\sorts\radixsort-2way\kernel.cu(190): warning : variable "flag" was set but never used
+  
+d:\cuda projects\sorts\radixsort-2way\kernel.cu(325): warning : return type of function "main" must be "int"
+  
+d:\cuda projects\sorts\radixsort-2way\kernel.cu(150): warning : expression has no effect
+  
+d:\cuda projects\sorts\radixsort-2way\kernel.cu(325): warning : return type of function "main" must be "int"
+  
+  kernel.cu
+  device_functions.h is an internal header file and must not be used directly.  This file will be removed in a future CUDA release.  Please use cuda_runtime_api.h or cuda_runtime.h instead.
+  RadixSort.vcxproj -> D:\CUDA Projects\Sorts\RadixSort-2Way\x64\Debug\RadixSort.exe
